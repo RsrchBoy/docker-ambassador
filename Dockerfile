@@ -3,7 +3,7 @@
 #
 # So, here's a no-frills approach to rolling your own ambassadors!
 
-FROM alpine:3.3
+FROM alpine:3.8
 MAINTAINER Chris Weyl <cweyl@alumni.drew.edu>
 
 RUN apk update && \
